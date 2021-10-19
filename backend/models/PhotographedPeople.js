@@ -13,3 +13,4 @@ const PhotographedPeopleSchema = new Schema({
 
 const PhotographedPeople = mongoose.model("PhotographedPeople", PhotographedPeopleSchema);
 module.exports = PhotographedPeople;
+
