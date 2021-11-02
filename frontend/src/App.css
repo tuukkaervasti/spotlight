@@ -11,6 +11,13 @@ html {
     background-size: contain;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 10rem 10 rem 10rem 10rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+}
+
 @media only screen and (max-width: 375px) {
     .bg {
         height: 100%;
