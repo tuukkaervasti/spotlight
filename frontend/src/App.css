@@ -16,6 +16,15 @@ html {
     grid-template-columns: 10rem 10 rem 10rem 10rem;
     grid-gap: 1rem;
     grid-auto-flow: row;
+    column-gap: 10px;
+    /* row-gap: 10px;
+    grid-template-columns: 60px;
+    grid-template-rows: 60px; */
+}
+
+.item {
+    background-color: red;
+    
 }
 
 @media only screen and (max-width: 375px) {
