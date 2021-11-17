@@ -23,6 +23,9 @@ html {
   height: auto;
 }
 
+.item:hover ~ .item {
+    
+}
 @media only screen and (max-width: 375px) {
     .bg {
         height: 100%;
@@ -40,3 +43,6 @@ html {
         background-size: cover;
     }
 }
+
+
+
