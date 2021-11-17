@@ -1,4 +1,3 @@
-import akeem from "./images/ak.jpg";
 import './App.css';
 import { BrowserRouter as Router } from "react-router-dom";
 import Grid from "./Grid";

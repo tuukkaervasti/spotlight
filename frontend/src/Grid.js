@@ -10,26 +10,27 @@ function Grid() {
 
     return(
         <div className="container">
-            <div className="item">Akeem
+            <div className="item">
             <img src={akeem}></img>
             </div>
-            <div className="item">Benjamin
+            <div className="item">
             <img src={benjamin}></img>
             </div>
-            <div className="item">Cecilia
+            <div className="item">
             <img src={cecilia}></img>
             </div>
-            <div className="item">Gustaf
+            <div className="item">
             <img src={gustaf}></img>
             </div>
-            <div className="item">Jori
-            <img src={jori}></img>
-            </div>
-            <div className="item">Tracey
+            <div className="item">
             <img src={tracey}></img>
+            </div>
+            <div className="item">
+            <img src={jori}></img>
             </div>
         </div>
     )
 }
 
 export default Grid;
+
