@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router } from "react-router-dom";
-import Grid from "./Grid";
+import Grid from "./components/Grid.js";
 
 function App() {
   return(
