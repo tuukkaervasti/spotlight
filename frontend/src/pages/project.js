@@ -10,7 +10,7 @@ const Project = () => {
                 alignItems: "Right",
                 height: "100vh"
             }}>
-            <h1 style="background-color:powderblue;">This is a heading</h1>
+            <h1>This is a heading</h1>
            <Grid />
         </div>
            

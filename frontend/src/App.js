@@ -22,8 +22,8 @@ return (
 	<Router>
 	<Navbar />
 	<Switch>
-		<Route path='/pages/projects' component={Project} />
-		<Route path='/pages/about' component={About} />
+		<Route path='/project' component={Project} />
+		<Route path='/about' component={About} />
 	</Switch>
 	</Router>
 );
