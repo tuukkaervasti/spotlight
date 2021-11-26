@@ -1,4 +1,4 @@
-import './App.css';
+/* import './App.css';
 import { BrowserRouter as Router } from "react-router-dom";
 import Grid from "./components/Grid.js";
 
@@ -8,6 +8,25 @@ function App() {
       <Grid />
     </div>
   )
+} */
+
+import React from 'react';
+import './App.css';
+import Navbar from './components/navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Project from './pages/project';
+import About from './pages/about';
+
+function App() {
+return (
+	<Router>
+	<Navbar />
+	<Switch>
+		<Route path='/pages/projects' component={Project} />
+		<Route path='/pages/about' component={About} />
+	</Switch>
+	</Router>
+);
 }
 
 export default App;
