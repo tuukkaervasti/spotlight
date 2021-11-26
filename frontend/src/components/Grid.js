@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import akeem from "../images/akeem.jpg"
 import benjamin from "../images/ben.jpg"
 import cecilia from "../images/cecilia.jpg"
@@ -11,7 +13,9 @@ function Grid() {
     return(
         <div className="container">
             <div className="item">
-            <img src={akeem}></img>
+            <Link to="./akeem">
+                <img src={akeem}></img>
+            </Link>
             </div>
             <div className="item">
             <img src={benjamin}></img>

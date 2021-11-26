@@ -12,7 +12,7 @@ const About = () => {
                 alignItems: "Right",
                 height: "100vh"
             }}>
-            <h1>SPOTLIGHT ON HUMANITY</h1>
+            <h1>AKEEM</h1>
             </div>
            
             
@@ -20,4 +20,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Akeem;
