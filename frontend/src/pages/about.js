@@ -1,5 +1,7 @@
 import React from "react";
 
+const element = <h1>This is the about page!</h1>;
+
 const About = () => {
     return (
         <div 
@@ -9,7 +11,7 @@ const About = () => {
                 alignItems: "Right",
                 height: "100vh"
             }}>
-            <h1>This is the about page!</h1>
+            
         </div>
     );
 };
