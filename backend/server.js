@@ -1,3 +1,5 @@
+// A simple express server with Nodemailer to enable user emails from the front-end via React custom component
+
 const express = require('express');
 const router = express.Router();
 const cors = require('cors');
@@ -34,7 +36,7 @@ router.post("/contact", (req, res) => {
     const mail = {
         from: name,
         to: "tuukka.ervasti@gmail.com", 
-        subject: "Contact form submission",
+        subject: "Viesti Spotlightista <3",
         html: `<p>Name: ${name}</p>
         <p>Email: ${email}</p>
         <p>Message: ${message}</p>`,
@@ -47,6 +49,7 @@ router.post("/contact", (req, res) => {
         else 
         {
             res.json({ status: "Message sent" });
+            console.log("Email sent");
         }
     });
 })
