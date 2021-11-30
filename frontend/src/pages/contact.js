@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
 
 
 
@@ -12,7 +13,8 @@ const Contact = () => {
                 alignItems: "Center",
                 height: "20vh"
             }}>
-            <h1>CONTACT ME HERE</h1>
+            <h1>Send me a message!</h1>
+            <ContactForm />
             </div>
            
             

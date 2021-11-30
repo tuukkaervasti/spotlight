@@ -16,7 +16,7 @@ font-family: Georgia;
 width: 100%;
 top: 0;
 left: 0;
-padding: 1em;
+padding-left: 2.9em;
 
 
 /* Third Nav */

@@ -15,22 +15,67 @@ html {
   max-width: 100%;
   max-height: 100%;
   
-  padding: 10px;
+  padding: 30px 30px 30px 30px; 
 
-  margin-top:50px;
+  margin-top:100px;
   margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  padding: 2px 16px;
   
 }
 
 .item {
-    flex: 1 0 21%;
+    flex: 1 0 25%;
+    
+    
    
 }
 
 .item:hover {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    
 }
+
+img {
+    
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    height: 20px;
+    top: -250px;
+    color: white;
+    background-color: rgba (0, 0, 0, .4);
+    opacity: 0;
+    font-size: 2.8rem;
+    max-width: 100%;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.box:hover figcaption {
+    opacity: 1;
+    
+}
+
+figure {
+    padding: 5px;
+}
+
+figure:hover {
+    opacity: 0.7;
+}
+
+.box {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
 @media only screen and (max-width: 375px) {
     .bg {
         height: 100%;
@@ -39,6 +84,7 @@ html {
         background-size: cover;
     }
 }
+
 
 @media only screen and (max-width: 1024px) {
     .bg {

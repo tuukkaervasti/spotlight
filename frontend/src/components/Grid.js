@@ -10,36 +10,134 @@ import tracey from "../images/tracey.jpg"
 
 
 // Front page grid view with preview images of all the people photographed
+
+// !! Will template these out once the other content is done !! 
+
 function Grid() {
 
     return(
         <div className="container">
             <div className="item">
                 <Link to="/akeem">
-                    <img src={akeem}></img>
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
                 </Link>
             </div>
             <div className="item">
-                    <img src={benjamin}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={cecilia}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={gustaf}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={tracey}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={jori}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={jori}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
             <div className="item">
-                    <img src={jori}></img>
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
             </div>
+            <div className="item">
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
+            </div>
+            <div className="item">
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
+            </div>
+            <div className="item">
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
+            </div>
+            <div className="item">
+                <Link to="/akeem">
+                    <section class="box">
+                        <figure>
+                        <img src={akeem}></img>
+                        <figcaption class="caption-text">Akeem</figcaption>
+                        </figure>
+                    </section> 
+                </Link>
+            </div>
+            
         </div>
     )
 }
