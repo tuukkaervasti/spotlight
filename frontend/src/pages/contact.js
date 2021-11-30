@@ -1,20 +1,23 @@
 import React from "react";
-import Grid from "../components/Grid";
 
-const Project = () => {
+
+
+const Contact = () => {
     return (
         
-        <div style={{
+        <div 
+            style={{
                 display: "flex",
                 justifyContent: "Center",
                 alignItems: "Center",
                 height: "20vh"
             }}>
-           <Grid />
-        </div>
+            <h1>CONTACT ME HERE</h1>
+            </div>
            
-           
+            
+            
     );
 };
 
-export default Project;
+export default Contact;

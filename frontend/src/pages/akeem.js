@@ -2,17 +2,17 @@ import React from "react";
 
 
 
-const About = () => {
+const Akeem = () => {
     return (
         
         <div 
             style={{
                 display: "flex",
-                justifyContent: "Right",
-                alignItems: "Right",
-                height: "100vh"
+                justifyContent: "Center",
+                alignItems: "Center",
+                height: "20vh"
             }}>
-            <h1>AKEEM</h1>
+            <p>AKEEM</p>
             </div>
            
             

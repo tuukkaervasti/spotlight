@@ -8,29 +8,37 @@ import gustaf from "../images/gustaf.jpg"
 import jori from "../images/jori.jpg"
 import tracey from "../images/tracey.jpg"
 
+
+// Front page grid view with preview images of all the people photographed
 function Grid() {
 
     return(
         <div className="container">
             <div className="item">
-            <Link to="./akeem">
-                <img src={akeem}></img>
-            </Link>
+                <Link to="/akeem">
+                    <img src={akeem}></img>
+                </Link>
             </div>
             <div className="item">
-            <img src={benjamin}></img>
+                    <img src={benjamin}></img>
             </div>
             <div className="item">
-            <img src={cecilia}></img>
+                    <img src={cecilia}></img>
             </div>
             <div className="item">
-            <img src={gustaf}></img>
+                    <img src={gustaf}></img>
             </div>
             <div className="item">
-            <img src={tracey}></img>
+                    <img src={tracey}></img>
             </div>
             <div className="item">
-            <img src={jori}></img>
+                    <img src={jori}></img>
+            </div>
+            <div className="item">
+                    <img src={jori}></img>
+            </div>
+            <div className="item">
+                    <img src={jori}></img>
             </div>
         </div>
     )
