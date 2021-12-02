@@ -25,6 +25,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/components/navbar/index.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

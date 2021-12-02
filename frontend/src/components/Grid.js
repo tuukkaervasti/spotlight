@@ -7,7 +7,7 @@ import cecilia from "../images/cecilia.jpg"
 import gustaf from "../images/gustaf.jpg"
 import jori from "../images/jori.jpg"
 import amir from "../images/amir.jpg"
-import ray from "../images/ray.jpg"
+
 
 
 // Front page grid view with preview images of all the people photographed
@@ -22,7 +22,7 @@ function Grid() {
                 <Link to="/aron">
                     <section class="box">
                         <figure>
-                        <img src={aron}></img>
+                        <img src={aron} alt="aron"></img>
                         <figcaption class="caption-text">Aron</figcaption>
                         </figure>
                     </section> 
@@ -33,7 +33,7 @@ function Grid() {
                 <Link to="/benjamin">
                     <section class="box">
                         <figure>
-                        <img src={benjamin}></img>
+                        <img src={benjamin} alt="benjamin"></img>
                         <figcaption class="caption-text">Benjamin</figcaption>
                         </figure>
                     </section> 
@@ -44,7 +44,7 @@ function Grid() {
                 <Link to="/cecilia">
                     <section class="box">
                         <figure>
-                        <img src={cecilia}></img>
+                        <img src={cecilia} alt="cecilia"></img>
                         <figcaption class="caption-text">Cecilia</figcaption>
                         </figure>
                     </section> 
@@ -55,7 +55,7 @@ function Grid() {
                 <Link to="/gustaf">
                     <section class="box">
                         <figure>
-                        <img src={gustaf}></img>
+                        <img src={gustaf} alt="gustaf"></img>
                         <figcaption class="caption-text">Gustaf</figcaption>
                         </figure>
                     </section> 
@@ -66,7 +66,7 @@ function Grid() {
                 <Link to="/jori">
                     <section class="box">
                         <figure>
-                        <img src={jori}></img>
+                        <img src={jori} alt="jori"></img>
                         <figcaption class="caption-text">Jori</figcaption>
                         </figure>
                     </section> 
@@ -77,7 +77,7 @@ function Grid() {
                 <Link to="/amir">
                     <section class="box">
                         <figure>
-                        <img src={amir}></img>
+                        <img src={amir}alt="amir"></img>
                         <figcaption class="caption-text">Amir</figcaption>
                         </figure>
                     </section> 

@@ -13,7 +13,7 @@ const Navbar = () => {
                 
                 <Bars />
                 <NavLink className="logo" to ="/project">
-                Spotlight on humanity    
+                Home   
                 </NavLink>                
                 <NavMenu>
 
@@ -24,8 +24,9 @@ const Navbar = () => {
                 <NavLink to ="/contact">
                 Contact
                 </NavLink>
-            </NavMenu>
-        </Nav>
+                </NavMenu>
+                
+            </Nav>
     </React.Fragment>
     );
 };

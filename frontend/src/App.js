@@ -23,12 +23,16 @@ import Cecilia from "./pages/cecilia";
 import Gustaf from "./pages/gustaf";
 import Jori from "./pages/jori";
 import Amir from "./pages/amir";
-import Logo from "./images/logo.png";
+import Footer from "./components/footer"
 
 function App() {
 return (
+	
+	<>
 	<Router>
 	<Navbar />
+	
+
 	<Switch>
 		<Route path='/project' component={Project} />
 		<Route path='/about' component={About} />
@@ -40,8 +44,11 @@ return (
 		<Route path="/jori" component={Jori} />
 		<Route path="/amir" component={Amir} />
 	</Switch>
+	<Footer />
 	</Router>
 	
+	
+	</>
 );
 }
 

@@ -9,7 +9,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
+
 
   grid-gap: 10px;
   max-width: 100%;
@@ -23,6 +23,7 @@ html {
   margin-right: 25px;
 
   padding: 2px 16px;
+ 
   
 }
 
@@ -89,7 +90,45 @@ figure:hover {
     
 }
 
+.footer {
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+p {
+    margin-top: 500px;
+}
+
+.about {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.about-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 1;
+}
+
+.about-header {
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 

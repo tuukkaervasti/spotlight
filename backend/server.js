@@ -1,9 +1,14 @@
 // A simple express server with Nodemailer to enable user emails from the front-end via React custom component
 
+const dotenv = require('dotenv');
+
+dotenv.config();
+
 const express = require('express');
 const router = express.Router();
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+
 
 const app = express();
 app.use(cors());
@@ -14,8 +19,8 @@ app.listen(3000, () => console.log("Server running!"));
 const contactEmail = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user: "tuukka.ervasti@gmail.com",
-        pass: "udajfnjqfprxnkmd"
+        user: process.env.GMAIL_USERNAME,
+        pass: process.env.ADMIN_PASSWORD
     },
 });
 
