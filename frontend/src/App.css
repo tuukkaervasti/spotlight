@@ -78,14 +78,16 @@ figure:hover {
 
 
 .kontakti {
-    background-color: red;
+    background-color: beige;
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 20vh;
+    height: 70vh;
 }
 
-
+.logo {
+    
+}
 
 
 

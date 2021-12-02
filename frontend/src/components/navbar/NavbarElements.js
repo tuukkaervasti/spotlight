@@ -6,19 +6,15 @@ export const Nav = styled.nav`
 background: #white;
 height: 150px;
 display: flex;
-justify-content: left;
+justify-content: right;
 
 // border-bottom: 1px solid black;
 font-family: Aktiv Grotesk;
 
-
-
-
 width: 100%;
 top: 0;
 left: 0;
-padding-left: 2.9em;
-
+padding-right: 1.5em;
 
 /* Third Nav */
 /* justify-content: flex-start; */

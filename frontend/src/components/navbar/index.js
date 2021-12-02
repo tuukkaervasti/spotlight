@@ -4,21 +4,20 @@ import {
     NavLink,
     Bars,
     NavMenu,
-    NavBtn,
-    NavBtnLink, 
 }   from "./NavbarElements";
 
 const Navbar = () => {
     return (
         <React.Fragment>
             <Nav>
-                <Bars />
-
-                <NavMenu>
                 
-                <NavLink to ="/project">
-                Home
-                </NavLink>
+                <Bars />
+                <NavLink className="logo" to ="/project">
+                Spotlight on humanity    
+                </NavLink>                
+                <NavMenu>
+
+               
                 <NavLink to ="/about">
                 About
                 </NavLink>

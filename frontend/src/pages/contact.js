@@ -8,7 +8,7 @@ const Contact = () => {
         
         <div className="kontakti">
             
-            <h1>Send me a message!</h1>
+            
             <ContactForm />
             </div>
            
