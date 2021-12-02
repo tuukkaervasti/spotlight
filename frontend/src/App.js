@@ -17,7 +17,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Project from './pages/project';
 import About from './pages/about';
 import Contact from "./pages/contact";
-import Akeem from "./pages/akeem";
+import Aron from "./pages/aron";
+import Benjamin from "./pages/benjamin";
+import Cecilia from "./pages/cecilia";
+import Gustaf from "./pages/gustaf";
+import Jori from "./pages/jori";
+import Amir from "./pages/amir";
 import Logo from "./images/logo.png";
 
 function App() {
@@ -28,7 +33,12 @@ return (
 		<Route path='/project' component={Project} />
 		<Route path='/about' component={About} />
 		<Route path="/contact" component={Contact} />
-		<Route path="/akeem" component={Akeem} />
+		<Route path="/aron" component={Aron} />
+		<Route path="/benjamin" component={Benjamin} />
+		<Route path="/cecilia" component={Cecilia} />
+		<Route path="/gustaf" component={Gustaf} />
+		<Route path="/jori" component={Jori} />
+		<Route path="/amir" component={Amir} />
 	</Switch>
 	</Router>
 	

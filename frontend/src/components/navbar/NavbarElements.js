@@ -4,12 +4,13 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 background: #white;
-height: 60px;
+height: 150px;
 display: flex;
 justify-content: left;
 
-border-bottom: 1px solid black;
-font-family: Georgia;
+// border-bottom: 1px solid black;
+font-family: Aktiv Grotesk;
+
 
 
 
@@ -33,6 +34,8 @@ height: 100%;
 cursor: pointer;
 &.active {
 	color: #000000;
+	text-decoration: underline;
+	text-underline-offset: 0.5rem;
 	font-weight: bold;
 }
 `;

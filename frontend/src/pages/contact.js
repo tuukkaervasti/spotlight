@@ -6,13 +6,8 @@ import ContactForm from "../components/ContactForm";
 const Contact = () => {
     return (
         
-        <div 
-            style={{
-                display: "flex",
-                justifyContent: "Center",
-                alignItems: "Center",
-                height: "20vh"
-            }}>
+        <div className="kontakti">
+            
             <h1>Send me a message!</h1>
             <ContactForm />
             </div>

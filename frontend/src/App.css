@@ -27,7 +27,7 @@ html {
 }
 
 .item {
-    flex: 1 0 25%;
+    flex: 1 0 40%;
     
     
    
@@ -75,6 +75,21 @@ figure:hover {
     flex-grow: 1;
     flex-basis: 100%;
 }
+
+
+.kontakti {
+    background-color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 20vh;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 375px) {
     .bg {
