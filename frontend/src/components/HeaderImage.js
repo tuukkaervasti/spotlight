@@ -1,7 +1,7 @@
 import React from "react";
 import AronHeader from "../images/headerimages/aron_header.jpg";
 
-const HeaderImage = () => {
+const HeaderImage = (props) => {
     return (
     <div className="individual-container">
         <section class="header-box">
