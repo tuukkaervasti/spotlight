@@ -12,14 +12,16 @@ const Aron = () => {
         
         <div className="aron">
             <HeaderImage />
-            <Interview />
+            <Interview text="I'm here, boy!"/>
             <ReactPlayer className="reactPlayer" url="https://vimeo.com/646173014" 
             controls="true;" 
             width="1000px"
             height="563px"
             
             />
+            <Interview text="And also here!"/>
             <img className="juttuImage" src={Aron2}></img>
+            <Interview text="But don't forget me here!"/>
             <img className="pystyImage" src={Aron3}></img>
             </div>
            
