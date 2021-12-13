@@ -2,6 +2,8 @@ import React from "react";
 import HeaderImage from "../components/HeaderImage.js";
 import Interview from "../components/Interview.js";
 import ReactPlayer from "react-player";
+import Header from "../components/Header";
+
 import Aron2 from "../images/aron2.jpg";
 import Aron3 from "../images/aron3.jpg";
 import AronHeader from "../images/headerimages/aron_header.jpg"; 
@@ -12,8 +14,11 @@ const Aron = () => {
     return (
         
         <div className="aron">
+            
             <HeaderImage image={AronHeader} />
             
+            <Header header="Aron" />
+
             <Interview text='- "I’m Aron, aka Akeem, a 27-year old music producer and studio technician from Eastern Helsinki. 
             I’ve been doing music stuff for the past 7 or 8 years, day in day out."'/>
             

@@ -222,6 +222,12 @@ p {
     
 }
 
+.Header {
+    font-weight: bold;
+    font-size: 5em;
+    
+}
+
 @media only screen and (max-width: 375px) {
     .bg {
         height: 100%;
