@@ -23,9 +23,9 @@ const ContactForm = () => {
         alert(result.status);
     };
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="contact-box" onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="name" >Name:</label>
+                <label className="-backdrop-hue-rotate-15" htmlFor="name" >Name:</label>
                 <input type="text" id="name" required ></input>
             </div>
             <div>
@@ -36,7 +36,7 @@ const ContactForm = () => {
                 <label htmlFor="name" >Message:</label>
                 <textarea id="message" required></textarea>
             </div>
-            <button type="submit">{status}</button>
+            <button className="submit-button" type="submit">{status}</button>
         </form>
     );
 };

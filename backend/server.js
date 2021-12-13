@@ -1,5 +1,8 @@
 // A simple express server with Nodemailer to enable user emails from the front-end via React custom component
 
+
+// setup variables
+
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -16,6 +19,8 @@ app.use(express.json());
 app.use("/", router);
 app.listen(3000, () => console.log("Server running!"));
 
+
+// define email service
 const contactEmail = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -24,6 +29,8 @@ const contactEmail = nodemailer.createTransport({
     },
 });
 
+
+// handle errors
 contactEmail.verify((error) => {
     if (error)
     {
@@ -34,6 +41,7 @@ contactEmail.verify((error) => {
         console.log("Ready to send!");
     }
 
+// create the post request
 router.post("/contact", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;

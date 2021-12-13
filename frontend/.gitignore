@@ -1,5 +1,4 @@
 node_modules/
-.NODE_ENV
 backend/node_modules
 backend/.env
 
