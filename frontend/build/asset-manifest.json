@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.010f9140.chunk.css",
+    "main.js": "/static/js/main.d1043056.chunk.js",
+    "main.js.map": "/static/js/main.d1043056.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4eab1d6a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4eab1d6a.js.map",
+    "static/js/2.d001a70d.chunk.js": "/static/js/2.d001a70d.chunk.js",
+    "static/js/2.d001a70d.chunk.js.map": "/static/js/2.d001a70d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.010f9140.chunk.css.map": "/static/css/main.010f9140.chunk.css.map",
+    "static/js/2.d001a70d.chunk.js.LICENSE.txt": "/static/js/2.d001a70d.chunk.js.LICENSE.txt",
+    "static/media/amir.4a787930.jpg": "/static/media/amir.4a787930.jpg",
+    "static/media/amir_header.f1652ef2.jpg": "/static/media/amir_header.f1652ef2.jpg",
+    "static/media/aron.1581c90a.jpg": "/static/media/aron.1581c90a.jpg",
+    "static/media/aron2.8e768d25.jpg": "/static/media/aron2.8e768d25.jpg",
+    "static/media/aron3.60d98806.jpg": "/static/media/aron3.60d98806.jpg",
+    "static/media/aron_header.717949d1.jpg": "/static/media/aron_header.717949d1.jpg",
+    "static/media/bc-logo.c6c85945.png": "/static/media/bc-logo.c6c85945.png",
+    "static/media/benjamin.d241bcb5.jpg": "/static/media/benjamin.d241bcb5.jpg",
+    "static/media/benjamin2.2b3b4495.jpg": "/static/media/benjamin2.2b3b4495.jpg",
+    "static/media/benjamin3.1f2c545a.jpg": "/static/media/benjamin3.1f2c545a.jpg",
+    "static/media/benjamin_header.07550f07.jpg": "/static/media/benjamin_header.07550f07.jpg",
+    "static/media/cecilia.f3c1b80e.jpg": "/static/media/cecilia.f3c1b80e.jpg",
+    "static/media/cecilia_header.928dc9e5.jpg": "/static/media/cecilia_header.928dc9e5.jpg",
+    "static/media/gustaf.438865eb.jpg": "/static/media/gustaf.438865eb.jpg",
+    "static/media/gustaf_header.9199517e.jpg": "/static/media/gustaf_header.9199517e.jpg",
+    "static/media/jori.5e86a8cd.jpg": "/static/media/jori.5e86a8cd.jpg",
+    "static/media/jori_header.2796bcfb.jpg": "/static/media/jori_header.2796bcfb.jpg",
+    "static/media/taike.bd4ce1c5.png": "/static/media/taike.bd4ce1c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eab1d6a.js",
+    "static/js/2.d001a70d.chunk.js",
+    "static/css/main.010f9140.chunk.css",
+    "static/js/main.d1043056.chunk.js"
+  ]
+}
