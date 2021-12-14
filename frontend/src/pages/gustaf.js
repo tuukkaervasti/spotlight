@@ -4,8 +4,8 @@ import Interview from "../components/Interview.js";
 import ReactPlayer from "react-player";
 import Header from "../components/Header";
 
-import Benjamin2 from "../images/benjamin2.jpg";
-import Benjamin3 from "../images/benjamin3.jpg";
+import Gustaf2 from "../images/gustaf2.jpg";
+import Gustaf3 from "../images/gustaf3.jpg";
 import GustafHeader from "../images/headerimages/gustaf_header.jpg"; 
 
 
@@ -30,13 +30,13 @@ const Gustaf = () => {
             Akeem is the one who goes to the club for the gig and who produces the track, Aron is the one who my mom complains to 
             about not taking the dog out enough etc."/>
             
-            <img className="juttuImage" src={Benjamin2}></img>
+            <img className="juttuImage" src={Gustaf2}></img>
             
             <Interview text="I hope others would see me as loyal, intelligent, honest and straight forward dude who can be counted on for 
             help or whatever is needed. I hope people see me as I see myself and as my mom sees me. I hope people see me as my dog sees me; 
             shoutout to Elmo! "/>
             
-            <img className="pystyImage" src={Benjamin3}></img>
+            <img className="pystyImage" src={Gustaf3}></img>
             
             <Interview text="My ideal vision of the world is not one where all the hardships are erased from people’s lives but one where 
             communities work together to solve problems instead of blaming others or claiming how it’s not their responsibility 
