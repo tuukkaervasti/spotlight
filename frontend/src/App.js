@@ -24,6 +24,7 @@ import Gustaf from "./pages/gustaf";
 import Jori from "./pages/jori";
 import Amir from "./pages/amir";
 import Footer from "./components/footer"
+import Ray from "./pages/ray";
 
 function App() {
 return (
@@ -40,7 +41,7 @@ return (
 		<Route path="/aron" component={Aron} />
 		<Route path="/benjamin" component={Benjamin} />
 		<Route path="/cecilia" component={Cecilia} />
-		<Route path="/gustaf" component={Gustaf} />
+		<Route path="/ray" component={Ray} />
 		<Route path="/jori" component={Jori} />
 		<Route path="/amir" component={Amir} />
 	</Switch>

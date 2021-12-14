@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 import aron from "../images/aron.jpg"
 import benjamin from "../images/benjamin.jpg"
 import cecilia from "../images/cecilia.jpg"
-import gustaf from "../images/gustaf.jpg"
 import jori from "../images/jori.jpg"
 import amir from "../images/amir.jpg"
-
+import ray from "../images/ray.jpg";
 
 
 // Front page grid view with preview images of all the people photographed
@@ -52,11 +51,11 @@ function Grid() {
             </div>
 
             <div className="item">
-                <Link to="/gustaf">
+                <Link to="/ray">
                     <section class="box">
                         <figure>
-                        <img src={gustaf} alt="gustaf"></img>
-                        <figcaption class="caption-text">Gustaf</figcaption>
+                        <img src={ray} alt="ray"></img>
+                        <figcaption class="caption-text">Ray</figcaption>
                         </figure>
                     </section> 
                 </Link>

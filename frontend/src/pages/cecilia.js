@@ -4,8 +4,8 @@ import Interview from "../components/Interview.js";
 import ReactPlayer from "react-player";
 import Header from "../components/Header";
 
-import Benjamin2 from "../images/benjamin2.jpg";
-import Benjamin3 from "../images/benjamin3.jpg";
+import Cecilia2 from "../images/cecilia2.jpg";
+import Cecilia3 from "../images/cecilia3.jpg";
 import CeciliaHeader from "../images/headerimages/cecilia_header.jpg"; 
 
 
@@ -17,8 +17,8 @@ const Cecilia = () => {
 
             <Header header="Cecilia" />
             
-            <Interview text='- "I’m Aron, aka Akeem, a 27-year old music producer and studio technician from Eastern Helsinki. 
-            I’ve been doing music stuff for the past 7 or 8 years, day in day out."'/>
+            <Interview text='I’m Cecilia, a 20 something year old young woman from Helsinki, currently living in Turku and studying to become 
+            a paramedic and perhaps sometime in the future I’ll study to become a graduate engineer.'/>
             
             <ReactPlayer className="reactPlayer" url="https://vimeo.com/586233272" 
             controls="true;" 
@@ -26,22 +26,18 @@ const Cecilia = () => {
             height="563px"
             />
             
-            <Interview text="- Aron gets up in the morning, Akeem goes to the studio, Akeem goes home from the studio, Aron goes to sleep. 
-            Akeem is the one who goes to the club for the gig and who produces the track, Aron is the one who my mom complains to 
-            about not taking the dog out enough etc."/>
+            <Interview text="I would like for other people to see me as someone who’s naturally beautiful on the inside, someone who is 
+nice and takes everyone into consideration and leaves nobody alone. "/>
             
-            <img className="juttuImage" src={Benjamin2}></img>
+            <img className="juttuImage" src={Cecilia2}></img>
             
-            <Interview text="I hope others would see me as loyal, intelligent, honest and straight forward dude who can be counted on for 
-            help or whatever is needed. I hope people see me as I see myself and as my mom sees me. I hope people see me as my dog sees me; 
-            shoutout to Elmo! "/>
+            <Interview text="I think an ideal world would be one where everyone is able to feel good and be treated in a fair and equal
+manner. "/>
             
-            <img className="pystyImage" src={Benjamin3}></img>
+            <img className="pystyImage" src={Cecilia3}></img>
             
-            <Interview text="My ideal vision of the world is not one where all the hardships are erased from people’s lives but one where 
-            communities work together to solve problems instead of blaming others or claiming how it’s not their responsibility 
-            to help while still complaining about the problems. Each one teach one, I think that’s the ideal world, where people 
-            all work towards a common goal regardless of any socioeconomic status or so called predetermined “box” into which one may have born"/>
+            <Interview text="One concrete thing that would make my life better would be another school I could get into so perhaps
+The graduate engineer thing or a spot at a medical university."/>
             </div>
            
             
