@@ -35,8 +35,10 @@ const Amir = () => {
             
             <img className="pystyImage" src={Amir3}></img>
             
+            <div className="lastAnswer">
             <Interview text="-One concrete thing that would make my life better would be that all the illnesses that the people I’m close to suffer from, would no 
             longer exist. That would improve my life, too"/>
+            </div>
             </div>
            
             

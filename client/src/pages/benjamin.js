@@ -37,8 +37,10 @@ My father is American and my mother is from Finland. I’m a musician. I make hi
             
             <img className="pystyImage" src={Benjamin3}></img>
             
+            <div className="lastAnswer">
             <Interview text="-Can I name a concrete example of what could change my life for the better? One concrete thing that comes to mind is not necessarily a 
             change, but to be able to live a life knowing that you are appreciated by the people around you - instead of only tolerated. As simple as that."/>
+            </div>
             </div>
            
             

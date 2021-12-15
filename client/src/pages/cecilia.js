@@ -36,8 +36,10 @@ manner. "/>
             
             <img className="pystyImage" src={Cecilia3}></img>
             
+            <div className="lastAnswer">
             <Interview text="-One concrete thing that would make my life better would be another school I could get into so perhaps
 The graduate engineer thing or a spot at a medical university."/>
+            </div>
             </div>
            
             

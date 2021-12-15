@@ -34,9 +34,11 @@ const Ray = () => {
             
             <img className="pystyImage" src={Ray3}></img>
             
+            <div className="lastAnswer">
             <Interview text="-My life is pretty great, to be honest, but I think we’re all our own worst enemy. 
             I think that we get in our own way and I think I’m too hard on myself.  I think, in the end, if I was less hard on myself 
             and trusting myself and my instincts more, life would be better. "/>
+            </div>
             </div>
            
             

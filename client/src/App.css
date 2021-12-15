@@ -13,7 +13,7 @@ a:hover {
 
 h5 {
     font-size: 0.2em;
-    margin-bottom: -35px;
+    margin-bottom: -20px;
     align-self: center;
     
 }
@@ -305,6 +305,9 @@ p {
     background-color: red;
 }
 
+.lastAnswer {
+    padding-bottom: 50px;
+}
 
 @media only screen and (max-width: 375px) {
     .bg {

@@ -18,7 +18,7 @@ const Aron = () => {
             <HeaderImage image={AronHeader} />
             
             <Header header="Aron" />
-
+            
             <Interview text='-I’m Aron, aka Akeem, a 27-year old music producer and studio technician from Eastern Helsinki. 
             I’ve been doing music stuff for the past 7 or 8 years, day in day out.'/>
             
@@ -39,12 +39,12 @@ const Aron = () => {
             shoutout to Elmo! "/>
             
             <img className="pystyImage" src={Aron3}></img>
-            
+            <div className="lastAnswer">
             <Interview className="litteroidut" text="-My ideal vision of the world is not one where all the hardships are erased from people’s lives but one where 
             communities work together to solve problems instead of blaming others or claiming how it’s not their responsibility 
             to help while still complaining about the problems. Each one teach one, I think that’s the ideal world, where people 
             all work towards a common goal regardless of any socioeconomic status or so called predetermined “box” into which one may have born"/>
-            
+            </div>
             </div>
            
             

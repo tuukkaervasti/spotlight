@@ -42,11 +42,13 @@ const Jori = () => {
             
             <img className="pystyImage" src={Jori3}></img>
             
+            <div className="lastAnswer">
             <Interview text="-My life is better when other people have their lives improved upon, too. One concrete example would maybe be if we 
             could come up with a system where everyone is entitled to a basic salary. Everyone would be entitled to the same monetary value and on 
             top of that, everyone could do their own meaningful work (or whatever they want to call it). In terms of economic realities, it would 
             give everyone the same value and in that sense, we would all be equal. It would give each of us more time to do the things we really want to do. 
 So if the society is well organised and does well, I’ll do well and so does everyone else. When everyone else around me is doing good, I’m doing good. "/>
+            </div>
             </div>
            
             
