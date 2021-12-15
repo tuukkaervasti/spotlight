@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7786135c.chunk.css",
-    "main.js": "/static/js/main.c2d82af9.chunk.js",
-    "main.js.map": "/static/js/main.c2d82af9.chunk.js.map",
+    "main.css": "/static/css/main.35eab7ca.chunk.css",
+    "main.js": "/static/js/main.22a37882.chunk.js",
+    "main.js.map": "/static/js/main.22a37882.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4eab1d6a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4eab1d6a.js.map",
     "static/js/2.d001a70d.chunk.js": "/static/js/2.d001a70d.chunk.js",
     "static/js/2.d001a70d.chunk.js.map": "/static/js/2.d001a70d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7786135c.chunk.css.map": "/static/css/main.7786135c.chunk.css.map",
+    "static/css/main.35eab7ca.chunk.css.map": "/static/css/main.35eab7ca.chunk.css.map",
     "static/js/2.d001a70d.chunk.js.LICENSE.txt": "/static/js/2.d001a70d.chunk.js.LICENSE.txt",
     "static/media/amir.4a787930.jpg": "/static/media/amir.4a787930.jpg",
     "static/media/amir2.9cb503c2.jpg": "/static/media/amir2.9cb503c2.jpg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.4eab1d6a.js",
     "static/js/2.d001a70d.chunk.js",
-    "static/css/main.7786135c.chunk.css",
-    "static/js/main.c2d82af9.chunk.js"
+    "static/css/main.35eab7ca.chunk.css",
+    "static/js/main.22a37882.chunk.js"
   ]
 }
