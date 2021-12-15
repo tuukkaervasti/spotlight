@@ -20,7 +20,6 @@ import Contact from "./pages/contact";
 import Aron from "./pages/aron";
 import Benjamin from "./pages/benjamin";
 import Cecilia from "./pages/cecilia";
-import Gustaf from "./pages/gustaf";
 import Jori from "./pages/jori";
 import Amir from "./pages/amir";
 import Footer from "./components/footer"
@@ -47,8 +46,6 @@ return (
 	</Switch>
 	<Footer />
 	</Router>
-	
-	
 	</>
 );
 }

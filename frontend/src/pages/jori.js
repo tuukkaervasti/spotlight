@@ -21,7 +21,7 @@ const Jori = () => {
             a small seaside town called Hanko. I’m an “ITE” artist in the field of visual arts and I’m also a musician and a singer. 
             I have been making art for around 36 years now.'/>
             
-            <ReactPlayer className="reactPlayer" url="https://vimeo.com/586233272" 
+            <ReactPlayer className="reactPlayer" url="https://vimeo.com/656805557" 
             controls="true;" 
             width="1000px"
             height="563px"

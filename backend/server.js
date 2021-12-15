@@ -61,7 +61,7 @@ router.post("/contact", (req, res) => {
         }
         else 
         {
-            res.json({ status: "Message sent" });
+            res.json({ status: "Thank you for the message, I will get back to you!" });
             console.log("Email sent");
         }
     });

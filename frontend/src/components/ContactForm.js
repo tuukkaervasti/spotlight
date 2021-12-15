@@ -25,15 +25,19 @@ const ContactForm = () => {
     return (
         <form className="contact-box" onSubmit={handleSubmit}>
             <div>
-                <label className="-backdrop-hue-rotate-15" htmlFor="name" >Name:</label>
-                <input type="text" id="name" required ></input>
+                <p id="contact-paragraph">Have a question / want to participate?</p>
+                <br></br>
+                <br></br>
+                <p id="contact-detail-paragraph">I'm always interested in photographing different people. Be in touch and let's figure it out!</p>
+                <label className="formLabel" htmlFor="name" >Name</label>
+                <input className="nameInput"type="text" id="name" required ></input>
             </div>
             <div>
-                <label htmlFor="name" >Email:</label>
-                <input type="email" id="email" required ></input>
+                <label className="formLabel"htmlFor="name" >Email</label>
+                <input className="nameInput"type="email" id="email" required ></input>
             </div>
             <div>
-                <label htmlFor="name" >Message:</label>
+                <label className="formLabel"htmlFor="name" >Message</label>
                 <textarea id="message" required></textarea>
             </div>
             <button className="submit-button" type="submit">{status}</button>

@@ -19,7 +19,7 @@ const Ray = () => {
 
             <Interview text='- My name is Ray Molina. I’m an electronic musician from Southern California.'/>
             
-            <ReactPlayer className="reactPlayer" url="https://vimeo.com/586233272" 
+            <ReactPlayer className="reactPlayer" url="https://vimeo.com/656808655" 
             controls="true;" 
             width="1000px"
             height="563px"

@@ -19,7 +19,7 @@ const Amir = () => {
 
             <Interview text='I’m Amir. Some people know me as Loasteeze, Steezy, työmyyrä. I’m a 25 year old hip-hop DJ and producer from Helsinki. '/>
             
-            <ReactPlayer className="reactPlayer" url="https://vimeo.com/586233272" 
+            <ReactPlayer className="reactPlayer" url="https://vimeo.com/656809413" 
             controls="true;" 
             width="1000px"
             height="563px"

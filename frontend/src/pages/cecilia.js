@@ -20,7 +20,7 @@ const Cecilia = () => {
             <Interview text='I’m Cecilia, a 20 something year old young woman from Helsinki, currently living in Turku and studying to become 
             a paramedic and perhaps sometime in the future I’ll study to become a graduate engineer.'/>
             
-            <ReactPlayer className="reactPlayer" url="https://vimeo.com/586233272" 
+            <ReactPlayer className="reactPlayer" url="https://vimeo.com/656810192" 
             controls="true;" 
             width="1000px"
             height="563px"
