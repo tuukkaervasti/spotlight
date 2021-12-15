@@ -8,6 +8,7 @@ height: 150px;
 display: flex;
 justify-content: right;
 flex-direction: row;
+padding-left: 7em;
 
 // border-bottom: 1px solid black;
 font-family: Aktiv Grotesk;
