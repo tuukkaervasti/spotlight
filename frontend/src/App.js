@@ -1,15 +1,3 @@
-/* import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
-import Grid from "./components/Grid.js";
-
-function App() {
-  return(
-    <div className="container">
-      <Grid />
-    </div>
-  )
-} */
-
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
@@ -31,8 +19,6 @@ return (
 	<>
 	<Router>
 	<Navbar />
-	
-
 	<Switch>
 		<Route path='/project' component={Project} />
 		<Route path='/about' component={About} />

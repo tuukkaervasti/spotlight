@@ -8,7 +8,7 @@ const About = () => {
     return (
         
         <div className="about-box">
-            <h1 className="about-header">SPOTLIGHT ON HUMANITY</h1>
+            {/* <h1 className="about-header">SPOTLIGHT ON HUMANITY</h1> */}
             <p className="about-paragraph">
              "Spotlight on humanity" is a project about hopes and wishes. It's about people and humanity. The project gives a platform for people to 
              talk about their visions of the world and their hopes of how to be seen in it.     

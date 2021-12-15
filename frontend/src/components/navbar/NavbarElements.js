@@ -7,6 +7,7 @@ background: #white;
 height: 150px;
 display: flex;
 justify-content: right;
+flex-direction: row;
 
 // border-bottom: 1px solid black;
 font-family: Aktiv Grotesk;
@@ -14,7 +15,7 @@ font-family: Aktiv Grotesk;
 width: 100%;
 top: 0;
 left: 0;
-padding-right: 1.5em;
+padding-right: -1.2em;
 
 /* Third Nav */
 /* justify-content: flex-start; */

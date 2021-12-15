@@ -102,9 +102,7 @@ figure:hover {
     margin-bottom: 20px;
 }
 
-.logo {
-    
-}
+
 
 .footer {
     display: none;
@@ -272,6 +270,22 @@ p {
 #contact-detail-paragraph {
     margin-top: -60px;
     margin-bottom: 50px;
+}
+
+.ig-logo {
+    max-height: 35%;
+    max-width: 35%;
+}
+
+.logo {
+    font-size: 1.5rem;
+    
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.navigaatio-muut {
+    
 }
 
 @media only screen and (max-width: 375px) {
