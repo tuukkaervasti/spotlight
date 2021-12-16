@@ -316,6 +316,10 @@ p {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    img.header {
+        max-width: 100%;
+
+    }
 }
 
 
@@ -330,6 +334,20 @@ p {
     .individual-container {
         display: flex;
         margin-top: 450px;
+    }
+
+    img.header {
+        max-width: 100%;
+
+    }
+    
+    .aron {
+        max-width: 100%;
+    }
+
+    .pystyImage {
+        max-width: 200%;
+        max-height: 100%;
     }
 }
 
