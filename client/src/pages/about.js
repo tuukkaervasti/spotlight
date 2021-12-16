@@ -53,7 +53,7 @@ const About = () => {
             <a className="about-links"href="https://en.bc.fi/"> Business College Helsinki.</a>
             <br></br>
             <br></br>
-            "Spotlight on humanity" is an original project by <a className="about-links"href="http://www.tuukkaervasti.com"> Tuukka Ervasti</a>.
+            "Spotlight on humanity" is an original project and concept by <a className="about-links"href="http://www.tuukkaervasti.com"> Tuukka Ervasti</a>.
             </p>
             <img className="taikelogo" src={Taike}></img>
         </div>
