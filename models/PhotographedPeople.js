@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const PhotographedPeopleSchema = new Schema({
     personName: String,
+    countryName: String,
     date: Date,
     photoArray: Array, 
     closeupPhoto: Number,
