@@ -8,6 +8,7 @@ const PhotographedPeopleSchema = new Schema({
     photoArray: Array, 
     closeupPhoto: Number,
     fullbodyPhoto: Number,
+    extraPhoto: Number, 
     quoteText: String,
     videoUrl: String, 
 });
